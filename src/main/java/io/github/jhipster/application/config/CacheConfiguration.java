@@ -43,6 +43,18 @@ public class CacheConfiguration {
             createCache(cm, io.github.jhipster.application.domain.User.class.getName());
             createCache(cm, io.github.jhipster.application.domain.Authority.class.getName());
             createCache(cm, io.github.jhipster.application.domain.User.class.getName() + ".authorities");
+            createCache(cm, io.github.jhipster.application.domain.Product.class.getName());
+            createCache(cm, io.github.jhipster.application.domain.ProductCategory.class.getName());
+            createCache(cm, io.github.jhipster.application.domain.ProductCategory.class.getName() + ".products");
+            createCache(cm, io.github.jhipster.application.domain.Customer.class.getName());
+            createCache(cm, io.github.jhipster.application.domain.Customer.class.getName() + ".orders");
+            createCache(cm, io.github.jhipster.application.domain.ProductOrder.class.getName());
+            createCache(cm, io.github.jhipster.application.domain.ProductOrder.class.getName() + ".orderItems");
+            createCache(cm, io.github.jhipster.application.domain.OrderItem.class.getName());
+            createCache(cm, io.github.jhipster.application.domain.Invoice.class.getName());
+            createCache(cm, io.github.jhipster.application.domain.Invoice.class.getName() + ".shipments");
+            createCache(cm, io.github.jhipster.application.domain.Shipment.class.getName());
+            createCache(cm, io.github.jhipster.application.domain.Notification.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }
