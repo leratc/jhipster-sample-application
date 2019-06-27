@@ -5,7 +5,7 @@
     "baseName": "jhipsterSampleApplication",
     "packageName": "io.github.jhipster.application",
     "packageFolder": "io/github/jhipster/application",
-    "serverPort": 8080,
+    "serverPort": 8090,
     "serviceDiscoveryType": false,
     "authenticationType": "jwt",
     "uaaBaseName": "../uaa",
@@ -21,15 +21,10 @@
     "buildTool": "maven",
     "useSass": true,
     "clientPackageManager": "npm",
-    "testFrameworks": [
-      "gatling"
-    ],
+    "testFrameworks": ["gatling"],
     "enableTranslation": true,
     "nativeLanguage": "fr",
-    "languages": [
-      "en",
-      "fr"
-    ],
+    "languages": ["en", "fr"],
     "clientFramework": "react",
     "jhiPrefix": "jhi",
     "jhipsterVersion": "6.1.0",
